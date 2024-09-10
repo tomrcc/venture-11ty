@@ -1,0 +1,24 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: "Bg-img-with-overlay"
+  description:
+  icon:
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  background_image:
+    image_path: https://placebear.com/1000/1000
+    image_alt: A bear
+  logo_image:
+    image_path: https://placebear.com/200/300
+    image_alt: A baby bear logo
+    position_left: 50
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:

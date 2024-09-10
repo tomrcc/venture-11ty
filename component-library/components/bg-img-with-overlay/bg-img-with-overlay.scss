@@ -1,0 +1,13 @@
+.c-bg-img-with-overlay {
+  position: relative;
+}
+.bg-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo-img {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
